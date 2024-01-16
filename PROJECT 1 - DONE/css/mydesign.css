@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: verdana,poppins;
+}
+.navbar a {
+  position: relative;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 30px;
+}
+.header {
+  position: relative;
+  background-position: relative;
+  width: 100%;
+  height: fit-content;
+  padding: 20px 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: verdana;
+  background: transparent;
+  background-size: auto;
+  backdrop-filter: blur(20px);
+}
+h1 > span {
+  color: white;
+  font-family: verdana;
+}
+.body {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/john-towner-JgOeRuGD_Y4-unsplash.jpg)
+}
+.design {
+  font-family: verdana;
+  color: white;
+  padding: 10px;
+  min-width: 300px;
+  min-height: 100px;
+  text-transform: capitalize;
+  text-align: justify;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+.navbar a:hover {
+  color: #d64039;
+}
+.navbar a:active {
+  color: red;
+}
+.my-design {
+  letter-spacing: 5px;
+  margin: 40px;
+  color: white;
+}
+.design img {
+  width: 410px;
+  height: 510px;
+}
+.design li{
+  margin-bottom: 30px;
+}
